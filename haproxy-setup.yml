@@ -1,0 +1,22 @@
+---
+- hosts: loadbalancerservers
+  become: yes
+  tasks:
+  - name: Install HAProxy service
+    apt:
+      name: haproxy
+      state: present
+
+  - name: Copy haproxy.cfg
+    copy:
+      src: etc/haproxy/haproxy.cfg
+      dest: /etc/haproxy/haproxy.cfg
+      owner: root
+      group: root
+      mode: '644'
+      backup: yes
+
+  - name: Restart service haproxy, in all cases
+    service:
+      name: haproxy
+      state: restarted

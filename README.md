@@ -1,5 +1,13 @@
 # HAProxy Load Balancer - Basic
 
+## Setup HAProxy service
+```
+$ ansible-playbook --inventory hosts haproxy-setup.yml
+```
+
+## HAProxy blog (basic)
+
+
 ## Create Some Test Files  
 
 We're going to need some test files for our web server containers. We're going to use 6 containers in 2 groups

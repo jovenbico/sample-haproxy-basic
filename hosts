@@ -1,0 +1,4 @@
+haproxy.io ansible_user=joven
+
+[loadbalancerservers]
+haproxy.io
