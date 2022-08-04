@@ -8,24 +8,24 @@ $ ansible-playbook --inventory hosts haproxy-setup.yml
 ## HAProxy blog (basic)
 
 ### What is Load Balancing
-	https://www.haproxy.com/blog/what-is-load-balancing/
-	https://www.haproxy.com/blog/layer-4-and-layer-7-proxy-mode/
+https://www.haproxy.com/blog/what-is-load-balancing/  
+https://www.haproxy.com/blog/layer-4-and-layer-7-proxy-mode/
 	
 ### Http load balancing
-	https://www.haproxy.com/blog/haproxy-configuration-basics-load-balance-your-servers/
-	https://www.haproxy.com/blog/how-to-enable-health-checks-in-haproxy/
-	https://www.haproxy.com/blog/introduction-to-haproxy-acls/
-	https://www.haproxy.com/blog/how-to-map-domain-names-to-backend-server-pools-with-haproxy/
+https://www.haproxy.com/blog/haproxy-configuration-basics-load-balance-your-servers/  
+https://www.haproxy.com/blog/how-to-enable-health-checks-in-haproxy/  
+https://www.haproxy.com/blog/introduction-to-haproxy-acls/  
+https://www.haproxy.com/blog/how-to-map-domain-names-to-backend-server-pools-with-haproxy/  
 	
 ### Http traffic with ssl/tls
-	https://www.haproxy.com/blog/haproxy-ssl-termination/
-	https://www.haproxy.com/blog/redirect-http-to-https-with-haproxy/
+https://www.haproxy.com/blog/haproxy-ssl-termination/  
+https://www.haproxy.com/blog/redirect-http-to-https-with-haproxy/  
 	
 ### Http rewrite
-	https://acloudguru.com/hands-on-labs/using-http-rewrites-with-haproxy
+https://acloudguru.com/hands-on-labs/using-http-rewrites-with-haproxy  
 	
 ### Monitoring
-https://www.haproxy.com/blog/exploring-the-haproxy-stats-page/![image](https://user-images.githubusercontent.com/3235983/182773416-58062823-f777-4e7e-b096-3bed57216404.png)
+https://www.haproxy.com/blog/exploring-the-haproxy-stats-page/  
 
 ## Create Some Test Files  
 
